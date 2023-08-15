@@ -2,6 +2,10 @@
     padding-bottom: 141px;
 }
 
+.course-start-title {
+    position: relative;
+}
+
 .course-start-title-h2 {
     color: #FD661F;
     text-align: center;
@@ -13,6 +17,12 @@
     /* 130% */
     letter-spacing: -2.88px;
     padding-bottom: 45px;
+}
+
+.cours-start-line-img {
+    position: absolute;
+    top: 55%;
+    left: 53%;
 }
 
 .course-start-buttons {

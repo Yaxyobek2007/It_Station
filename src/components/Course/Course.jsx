@@ -5,6 +5,7 @@ import "./course.scss"
 // Import Images 
 
 import CourseBanner from "../../assets/png/course-banner.png"
+import CourseLine from "../../assets/svg/course-line.svg"
 
 function Course() {
 
@@ -13,6 +14,7 @@ function Course() {
             <div className="conatiner">
                 <div className="course-start-title">
                     <h2 className="course-start-title-h2">Bepul Online kurslar</h2>
+                    <img className="cours-start-line-img" src={CourseLine} />
                 </div>
 
                 <div className="course-start-buttons">
