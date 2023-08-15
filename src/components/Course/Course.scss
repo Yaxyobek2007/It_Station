@@ -1,0 +1,119 @@
+.course-section {
+    padding-bottom: 141px;
+}
+
+.course-start-title-h2 {
+    color: #FD661F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62.4px;
+    /* 130% */
+    letter-spacing: -2.88px;
+}
+
+.course-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.course-card {
+    width: 296px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+}
+
+.course-card-top {
+    .course-card-top-img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+.course-card-middle {
+    padding: 18px;
+}
+
+.course-card-date-info-p {
+    color: var(--primary-primary-3, #777795);
+    font-family: Raleway;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 15px */
+}
+
+.course-card-name-h4 {
+    color: #263039;
+    font-family: Raleway;
+    font-size: 15.522px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* 23.283px */
+    letter-spacing: 0.388px;
+}
+
+.course-card-description-p {
+    color: var(--grey-grey-2, #4D4D4D);
+    font-family: Raleway;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 16px */
+}
+
+.course-card-bottom-free-h5 {
+    color: var(--brand-color-2, #FD661F);
+    font-family: Inter;
+    font-size: 16.681px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 25.022px */
+}
+
+.course-card-bottom-price {
+    color: var(--black, #230F0F);
+    font-family: Inter;
+    font-size: 14.828px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: line-through;
+    /* 22.242px */
+}
+
+.course-card-bottom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #263039;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.course-card-bottom {
+    display: flex;
+    gap: 62px;
+    padding: 18px;
+}
+
+.course-card-bottom-wrapper {
+    display: flex;
+    gap: 10px;
+}

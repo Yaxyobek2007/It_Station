@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // Import Images 
 
-import TeacherPng from "../../assets/img/teacher.png"
+import TeacherPng from "../../assets/png/teacher.png"
 import LinkIn from "../../assets/svg/linkin-icon.svg"
 
 
