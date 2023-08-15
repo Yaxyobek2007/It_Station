@@ -15,7 +15,14 @@ function Course() {
                     <h2 className="course-start-title-h2">Bepul Online kurslar</h2>
                 </div>
 
-                <div className="course-start-buttons"></div>
+                <div className="course-start-buttons">
+                    <button className="course-start-button">All programme</button>
+                    <button className="course-start-button">Ui/ux design</button>
+                    <button className="course-start-button">Program design</button>
+                    <button className="course-start-button">Program  Design</button>
+                    <button className="course-start-button">Program  Design</button>
+                    <button className="course-start-button">Program  Design</button>
+                </div>
 
                 <div className="course-card-wrapper">
 
@@ -58,7 +65,7 @@ function Course() {
                             <button className="course-card-bottom-btn">Enroll Now</button>
                         </div>
                     </div>
-                    
+
                     <div className="course-card">
 
                         <div className="course-card-top">

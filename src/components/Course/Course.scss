@@ -12,6 +12,35 @@
     line-height: 62.4px;
     /* 130% */
     letter-spacing: -2.88px;
+    padding-bottom: 45px;
+}
+
+.course-start-buttons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.course-start-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background-color: transparent;
+    color: #818C96;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #FFF;
+        background: #263039;
+    }
 }
 
 .course-card-wrapper {
@@ -31,6 +60,8 @@
 }
 
 .course-card-top {
+    cursor: pointer;
+
     .course-card-top-img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -95,16 +126,22 @@
 
 .course-card-bottom-btn {
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
-    background: #263039;
-    color: #FFF;
+    border: 1px solid #C4C4C4;
+    background-color: transparent;
+    color: #818C96;
     font-family: Raleway;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #FFF;
+        background: #263039;
+    }
 }
 
 .course-card-bottom {
