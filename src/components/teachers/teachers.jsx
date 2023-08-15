@@ -21,6 +21,9 @@ function Teachers() {
     return (
         <section className="teachers-section">
             <div className="container">
+                <div className="teachers-start">
+                    <h3 className="teachers-start-h3">Tajribali ustozlarimiz</h3>
+                </div>
                 <div className="teachers-slider-wrapper">
 
                     <Swiper
@@ -81,6 +84,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
@@ -107,6 +111,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
@@ -133,6 +138,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
@@ -159,6 +165,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
@@ -185,6 +192,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
@@ -211,6 +219,7 @@ function Teachers() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className="SwiperSlide">
                             <div className="teacher-card">
 
