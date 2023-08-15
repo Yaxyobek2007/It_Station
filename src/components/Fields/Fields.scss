@@ -1,0 +1,55 @@
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px 100px;
+}
+
+
+.field-foundations {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.field-name {
+    margin-bottom: 18px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 121.429% */
+    letter-spacing: -0.56px;
+}
+
+
+
+
+.field-foundations {
+    width: 550px;
+    height: 300px;
+}
+
+.field-des {
+    width: 270px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: -0.28px;
+
+}
+
+.field-link {
+    display: inline-flex;
+    padding: 5px 12.91px 5px 12px;
+    align-items: flex-start;
+    border-radius: 4px;
+    background: #0F1826;
+    color: white;
+    margin-top: 26px;
+}
