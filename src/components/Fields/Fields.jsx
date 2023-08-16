@@ -8,6 +8,7 @@ function Fields() {
         <>
             <section className="field-section">
                 <div className="container">
+                        <h1 className="yonalishlar">Yo‘nalishlar bo‘yicha kurslar</h1>
                     <div className="field">
                         <div className="field-foundations">
                             <div className="field-1">

@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Header />
+      <Fields />
       <Teachers />
       <Course />
       <Experience />
-      <Fields />
     </>
   )
 }
