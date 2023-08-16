@@ -61,6 +61,7 @@
     align-items: center;
     padding-top: 30%;
     position: relative; 
+    // overflow-y: hidden;
 }
 
 .hero-link-links2-img1{
@@ -78,40 +79,40 @@
     width: 300px;
     height: 300px;
     transition: 0.9s linear;
-    // z-index: -1;
+    z-index: -1;
     
 }
 
 .hero-link-links2-img3{
     position: absolute;
     top: 50%;
-    right: 31%;
+    left: 190px;
     transition: 0.4s linear;
 }
 
 .hero-link-links2-html{
     position: absolute;
-    top: 50%;
-    right: 28%;
-    transition: 0.5s linear;
+    top: 53%;
+    left: 190px;
+    transition: 0.4s linear;
 }
 .hero-link-links2-figma{
     position: absolute;
-    right: 15%;
-    top: 48%;
-    transition: 0.5s linear;
+    top: 55%;
+    left:420px;
+    transition: 0.4s linear;
 }
 .hero-link-links2-js{
     position: absolute;
-    right: 27%;
-    top: 60%;
-    transition: 0.5s linear;
+    top: 75%;
+    right: -330px;
+    transition: 0.4s linear;
 }
 .hero-link-links2-python{
     position: absolute;
-    right: 16%;
-    top: 74%;
-    transition: 0.5s linear;
+    left: 360px;
+    top: 95%;
+    transition: 0.4s linear;
 }
 
 .hero-link-links2-t{
