@@ -10,7 +10,11 @@ function App() {
   return (
     <>
       <Header />
+<<<<<<< HEAD
       <Fields />
+=======
+      {/* <Hero/> */}
+>>>>>>> d76e1ed76b75eb125f6d168b7dd62e4f73539dde
       <Teachers />
       <Course />
       <Experience />
