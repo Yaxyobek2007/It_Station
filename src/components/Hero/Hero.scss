@@ -9,7 +9,6 @@
 .hero-link {
     display: flex;
     justify-content: space-between;
-    align-items:center;
     gap: 22px;
 }
 
@@ -59,64 +58,64 @@
 .hero-link-links2{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+    position: relative; 
 }
 
-.hero-link-links2-imges{
-    position: relative;
-    &::after{
-        content: url("../../assets/img/header-links2-teacher.png");
-        background-repeat: no-repeat;
-        position:fixed;
-        top: 10.80%;
-        right:10px;
-    }
-    .hero-link-links2-img1{
-        position: fixed;
-        right:200px;   
-        top: 29%;
-        width: 309px;
-        height: 426px;
-        transition: 0.9s linear;
-    }
-    .hero-link-links2-img2{
-        position: fixed;
-        right:210px;   
-        top: 44%;
-        width: 300px;
-        height: 300px;
-        transition: 0.9s linear;
-        z-index: -1;
-    }
+.hero-link-links2-img1{
+    position:absolute;
+    left: 200px;   
+    width: 309px;
+    height: 426px;
+    transition: 0.9s linear;
+}
+.hero-link-links2-img2{
+    position:absolute;   
+    top: 54%;
+    padding-bottom: 18px;
+    left: 190px;
+    width: 300px;
+    height: 300px;
+    transition: 0.9s linear;
+    // z-index: -1;
+    
 }
 
 .hero-link-links2-img3{
-    position: fixed;
+    position: absolute;
     top: 50%;
     right: 31%;
     transition: 0.4s linear;
 }
 
 .hero-link-links2-html{
-    position: fixed;
+    position: absolute;
     top: 50%;
     right: 28%;
     transition: 0.5s linear;
 }
 .hero-link-links2-figma{
-    position: fixed;
+    position: absolute;
     right: 15%;
     top: 48%;
     transition: 0.5s linear;
 }
 .hero-link-links2-js{
-    position: fixed;
+    position: absolute;
     right: 27%;
     top: 60%;
     transition: 0.5s linear;
 }
 .hero-link-links2-python{
-    position: fixed;
+    position: absolute;
     right: 16%;
     top: 74%;
     transition: 0.5s linear;
+}
+
+.hero-link-links2-t{
+    position: absolute;
+    top: -14%;
+    right: -700px;
 }
