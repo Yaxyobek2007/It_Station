@@ -5,7 +5,6 @@ import Header from './components/Header/Header.jsx'
 import Teachers from './components/teachers/teachers'
 import Fields from './components/Fields/Fields'
 import Hero from './components/Hero/Hero'
-import Slider from './components/Slider/Slider'
 
 function App() {
 
@@ -16,7 +15,6 @@ function App() {
       <Teachers />
       <Course />
       <Experience />
-      <Slider />
     </>
   )
 }

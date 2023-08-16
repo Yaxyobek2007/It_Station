@@ -11,7 +11,7 @@ import ExperiencePython from "../../assets/png/experience-python.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 function Experience() {
 
@@ -26,19 +26,27 @@ function Experience() {
                 <div className="experience-wrapper">
 
                     <Swiper
-                         slidesPerView={1}
-                         spaceBetween={-150}
-                         pagination={{
-                           clickable: true,
-                         }}
-                        
-                            autoplay={{
-                              delay: 2500,
-                              disableOnInteraction: false,
-                            }}
-                            navigation={true}
-                            modules={[Autoplay, Pagination, Navigation]}
-                            className="mySwiper"
+                        spaceBetween={10}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        navigation={true}
+                        modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
+
+                        effect={'coverflow'}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        slidesPerView={'auto'}
+                        coverflowEffect={{
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows: true,
+                        }}
+                        pagination={true}
+                        className="mySwiper"
                     >
 
                         <SwiperSlide>
@@ -63,7 +71,7 @@ function Experience() {
 
                             </div>
                         </SwiperSlide>
-                        
+
                         <SwiperSlide>
                             <div className="experience-card">
 
