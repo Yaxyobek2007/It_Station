@@ -20,19 +20,19 @@ function Hero() {
     const elFigma = useRef()
     const elJs = useRef()
     const elPython = useRef()
+    const eldf = useRef()
 
-    function onImg() {
+    function onImg() {  
         setTimeout(()=>{
             elImg1.current.classList.add('.open-img')
-            elImg1.current.style.width = "709px"
-            elImg1.current.style.top = "29%"
-            elImg1.current.style.right = "30px"
+            elImg1.current.style.width = "689px"
+            elImg1.current.style.left = "0"
         })
             setTimeout(() => {
                 elImg2.current.style.width = "562px"
                 elImg2.current.style.height = "352px"
-                elImg2.current.style.top = "39.70%"
-                elImg2.current.style.right = "100px"
+                elImg2.current.style.top = "41%"
+                elImg2.current.style.left = "70px"
             }, 300)
            setTimeout(() => {
                 elReact.current.style.top = "29%"
@@ -70,16 +70,15 @@ function Hero() {
                             <button className="hero-link-links1-start-btn">O’qishni boshlash</button>
                         </li>
 
-                        <li className="hero-link-links2">
-                            <div className="hero-link-links2-imges">
-                                <img className="hero-link-links2-img3" src={hero3} alt="error" ref={elReact} />
-                                <img className="hero-link-links2-html" src={hero6} alt="error" ref={elHtml} />
+                        <li className="hero-link-links2" ref={eldf}>
+                                {/* <img className="hero-link-links2-img3" src={hero3} alt="error" ref={elReact} /> */}
+                                {/* <img className="hero-link-links2-html" src={hero6} alt="error" ref={elHtml} /> */}
                                 <img className="hero-link-links2-img1" src={hero2} alt="error" ref={elImg1} />
                                 <img className="hero-link-links2-img2" src={hero1} alt="error" ref={elImg2} />
-                                <img className="hero-link-links2-figma" src={hero7} alt="error" ref={elFigma} />
-                                <img className="hero-link-links2-js" src={hero5} alt="error" ref={elJs} />
-                                <img className="hero-link-links2-python" src={hero4} alt="error" ref={elPython} />
-                            </div>
+                                {/* <img className="hero-link-links2-figma" src={hero7} alt="error" ref={elFigma} /> */}
+                                {/* <img className="hero-link-links2-js" src={hero5} alt="error" ref={elJs} /> */}
+                                {/* <img className="hero-link-links2-python" src={hero4} alt="error" ref={elPython} /> */}
+                                <img className="hero-link-links2-t" src={hero8} alt="error" />
                         </li>
                     </ul>
                 </div>
